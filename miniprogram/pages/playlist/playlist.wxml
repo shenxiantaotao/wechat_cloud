@@ -1,0 +1,16 @@
+<!-- 轮播 -->
+<swiper indicator-dots="true" autoplay="true" interval="2000" duration="1000">
+  <!-- 这个呢 block不会在页面上显示出来 -->
+  <block wx:for="{{swiperImgUrls}}" wx:key="_id">
+    <!-- 轮播每项 -->
+    <swiper-item>
+      <image class="img" src="{{item.url}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="playlist-container">
+  <block wx:for="{{playlist}}" wx:key="id">
+    <x-playlist playlist="{{item}}"></x-playlist>
+  </block>
+</view>

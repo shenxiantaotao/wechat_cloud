@@ -1,0 +1,73 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true,
+		"checkSiteMap": false
+	},
+	"appid": "wx997dfe83f9920189",
+	"projectname": "wechat-cloud",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "推荐歌单详情页",
+					"pathName": "pages/musiclist/musiclist",
+					"query": "playlistId= 4931300322",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "歌曲播放界面",
+					"pathName": "pages/player/player",
+					"query": "musicId=417250673&index=3",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发现界面",
+					"pathName": "pages/blog/blog",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "发布评论界面",
+					"pathName": "pages/blog-edit/blog-edit",
+					"query": "avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIlGNZUz7BThYc2Rr3jfC15LibqQknstj4qhp7FnqgibCiabgbgFgIf1uy6icABLbMGia8QNOuSYR10Jkg/132&nickName=陈先生",
+					"scene": null
+				}
+			]
+		}
+	}
+}
